@@ -29,7 +29,7 @@ equipo: any[] = [];//arreglo donde se almacena toda la info de la BD
       .subscribe((resp: any[]) => {
         this.cargada=true;
         this.equipo = resp;
-        console.log(resp);
+
       });
   }
 }//end export class InfoPaginaService
